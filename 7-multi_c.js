@@ -4,7 +4,8 @@ if (isNaN(args)){
     console.log('Missing number of occurrences');
 }
 else{
-    // to pint it in nwe line
-    console.log('C is fun\n'.repeat(Number(args)));
+for (let i = 0; i < Number(args); i++){
+    console.log('C is fun');
     
-}
+    
+}}
